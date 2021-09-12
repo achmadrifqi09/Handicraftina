@@ -24,6 +24,7 @@ body {
 
 .bg-color {
     background-color: var(--bg-color);
+    padding-top: 50px;
 }
 
 /* navbar */
@@ -286,8 +287,11 @@ footer a {
         padding-bottom: 14px;
     }
 
-    .product,
-    .hero {
+    .container.hero {
+        padding: 0px 24px;
+    }
+
+    .product {
         padding: 24px;
     }
 
