@@ -17,8 +17,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow-x: hidden;
+    width: 100%;
 
 }
+
+
 
 .bg-color {
     background-color: var(--bg-color);
