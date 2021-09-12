@@ -24,7 +24,6 @@ body {
 
 .bg-color {
     background-color: var(--bg-color);
-    padding-top: 50px;
 }
 
 /* navbar */
@@ -293,6 +292,10 @@ footer a {
 
     .product {
         padding: 24px;
+    }
+
+    .bg-color {
+        padding-top: 90px;
     }
 
 }
