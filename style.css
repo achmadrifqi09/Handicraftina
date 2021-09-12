@@ -22,10 +22,6 @@ body {
 
 
 
-.bg-color {
-    background-color: var(--bg-color);
-}
-
 /* navbar */
 
 .navbar .navbar-brand {
@@ -128,9 +124,9 @@ img {
 }
 
 .hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+    min-height: 110vh;
+    background-color: var(--bg-color);
+    padding-top: 10rem;
 }
 
 .desc-hero {
@@ -279,8 +275,9 @@ footer a {
     }
 
     .hero {
-        padding-top: 120px;
+        padding-top: 5rem;
     }
+
 
     .box-desc {
         padding-bottom: 14px;
@@ -294,9 +291,7 @@ footer a {
         padding: 24px;
     }
 
-    .bg-color {
-        padding-top: 90px;
-    }
+
 
 }
 
