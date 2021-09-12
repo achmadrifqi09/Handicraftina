@@ -20,8 +20,6 @@ body {
 
 }
 
-
-
 /* navbar */
 
 .navbar .navbar-brand {
@@ -127,6 +125,7 @@ img {
     min-height: 110vh;
     background-color: var(--bg-color);
     padding-top: 10rem;
+    padding-bottom: 48px;
 }
 
 .desc-hero {
