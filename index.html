@@ -15,9 +15,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">Handicraftina</a>
+            <a class="navbar-brand" href="#">Handicraft<span class="span-title">ina</span></a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="toggler-icon top-bar"></span>
@@ -45,23 +45,50 @@
 
     <div class="hero">
         <div class="container m-auto">
-            <div class="row">
-                <div class="col">
-                    <h1 class="hero-title" data-aos="zoom-in">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                        Quae, eveniet.</h1>
-                    <p class="desc-hero" data-aos="fade-up" data-aos-duration="1500">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus reiciendis sint minima
-                        ipsam
-                        laboriosam
-                        rem molestias. Reprehenderit, adipisci quaerat maiores blanditiis odio harum. Hic tenetur quidem
-                        facilis
-                        incidunt porro.
-                    </p>
-                    <button class="btn-prim" data-aos="fade-up" data-aos-duration="2000"><a href="#product">Get
-                            Started</a></button>
+            <div class="wrap-hero">
+                <h1 class="hero-title" data-aos="zoom-in">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Quae, eveniet.</h1>
+                <p class="desc-hero" data-aos="fade-up" data-aos-duration="1500">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, natus reiciendis sint minima
+                    ipsam
+                    laboriosam
+                    rem molestias. Reprehenderit, adipisci quaerat maiores blanditiis odio harum. Hic tenetur quidem
+                    facilis
+                    incidunt porro.
+                </p>
+                <button class="btn-prim" data-aos="fade-up" data-aos-duration="2000"><a href="#product">Get
+                        Starte </a></button>
+            </div>
+            <div class="hero-social" data-aos="zoom-in" data-aos-duration="1500">
+                <h6 class="contact-us"><a href="">Let's Talk →</a></h6>
+                <div class="wrap-social">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
                 </div>
-                <div class="col img-hero">
-                    <img src="assets/image 1.png" data-aos="fade-up" alt="" data-aos-duration="2200">
+            </div>
+        </div>
+    </div>
+    <div class="excellence">
+        <div class="container">
+            <h3 data-aos="fade-up" data-aos-duration="1500">What are our advantages ?</h3>
+            <p class="mb-4 desc-excellence" data-aos="fade-up" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque enim
+                nesciunt et?</p>
+            <div class="wrap-item">
+                <div class="excellence-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>Best Quality</h5>
+                    <i class="fas fa-medal"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="excellence-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>Affordable</h5>
+                    <i class="fas fa-wallet"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="excellence-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>On Time Delivery</h5>
+                    <i class="fas fa-truck"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 </div>
             </div>
         </div>
@@ -69,11 +96,9 @@
 
     <a href="https://api.whatsapp.com/send?phone=#" class="floating-btn"><i class="fab fa-whatsapp"></i></a>
 
-    <div class="title-product" id="product">
-        <h2 class="title-section">Products</h2>
-    </div>
-    <div class="product mb-4">
+    <div class="product">
         <div class="container">
+            <h2 class="title-product">Products</h2>
             <div class="card-box" data-aos="fade-up" data-aos-duration="900">
                 <img src="assets/image 2.png" class="img-box" alt="product">
                 <div class="box-info">
@@ -85,7 +110,7 @@
                         Inventore, officiis, numquam perferendis, dolor laborum eveniet laudantium ipsa ratione culpa
                         fugit sapiente tenetur?</p>
 
-                    <button class="btn-view">View Detail</button>
+                    <button class="btn-prim">View Detail</button>
                 </div>
             </div>
 
@@ -100,7 +125,7 @@
                         Inventore, officiis, numquam perferendis, dolor laborum eveniet laudantium ipsa ratione culpa
                         fugit sapiente tenetur?</p>
 
-                    <button class="btn-view">View Detail</button>
+                    <button class="btn-prim">View Detail</button>
                 </div>
             </div>
 
@@ -115,7 +140,7 @@
                         Inventore, officiis, numquam perferendis, dolor laborum eveniet laudantium ipsa ratione culpa
                         fugit sapiente tenetur?</p>
 
-                    <button class="btn-view">View Detail</button>
+                    <button class="btn-prim">View Detail</button>
                 </div>
             </div>
         </div>
@@ -124,55 +149,71 @@
 
 
     <div class="bg-overlay" id="contact">
+    </div>
+
+    <div class="about">
         <div class="container">
-            <h2 class="title-section">Contact and Store</h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col" data-aos="fade-down" data-aos-duration="1500">
-                    <div class="card contact">
-                        <div class="card-body">
-                            <h5 class="card-title">Contact</h5>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="email" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                                        required>
-                                </div>
-                                <div class="mb-3">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input type="number" class="form-control" id="phone" required>
-                                </div>
-                                <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                </div>
-                                <button type="submit" class="btn-prim mt-3">Submit</button>
-                            </form>
-                        </div>
-                    </div>
+            <h3 data-aos="fade-up" data-aos-duration="1500">More information about us</h3>
+            <p class="mb-4 desc-about" data-aos="fade-up" data-aos-duration="1500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque enim
+                nesciunt et?</p>
+            <div class="wrap-about">
+                <div class="about-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>Order</h5>
+                    <i class="fas fa-cart-plus"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn-prim">Order Now</button>
                 </div>
-                <div class="col" data-aos="fade-up" data-aos-duration="1500">
-                    <div class="card">
-                        <div class="card-body">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4851.346420663766!2d114.57808499004666!3d-3.3314310751012224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de4217d99849521%3A0xf3ed6b120cb87b71!2sMasjid%20Jami%20Teluk%20Tiram%20Banjarmasin!5e0!3m2!1sid!2sid!4v1631448667886!5m2!1sid!2sid"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                        </div>
-                    </div>
+                <div class="about-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>Company Profile</h5>
+                    <i class="fas fa-users"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn-prim">View</button>
+                </div>
+                <div class="about-item" data-aos="fade-up" data-aos-duration="1500">
+                    <h5>Store Location</h5>
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button class="btn-prim">See Location</button>
                 </div>
             </div>
         </div>
     </div>
 
+
     <footer>
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="" class="copy-rigth">Copyright © 2021 Handicraftina, All Rights Reserved</a>
-            <div class="social">
-                <i class="fab fa-instagram"></i>
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
+        <div class="container pt-5">
+            <div class="footer-contact">
+                <h6>Contact</h6>
+                <div class="wrap-contact">
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        081231453807
+                    </div>
+                    <div class="contact-detail mt-2">
+                        <i class="fas fa-envelope-open-text"></i>
+                        handicraftina74@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-social-media">
+                <h6>Follow me!</h6>
+                <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </div>
+                <div class="social mt-2">
+                    <i class="fab fa-facebook"></i>
+                    Facebook
+                </div>
+                <div class="social mt-2">
+                    <i class="fab fa-twitter"></i>
+                    Twitter
+                </div>
             </div>
         </div>
-
+        <div class="footer">
+            <a href="" class="copy-rigth">Copyright © 2021 Handicraftina, All Rights Reserved</a>
+        </div>
     </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -184,8 +225,8 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
 
     <script src="https://kit.fontawesome.com/34b32761e5.js" crossorigin="anonymous"></script>
