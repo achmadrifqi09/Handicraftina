@@ -283,8 +283,9 @@ footer a {
     background-color: var(--primry-color);
 }
 
-.floating-btn i{
+.floating-btn i {
     color: white;
+    font-size: 24px;
 }
 
 
