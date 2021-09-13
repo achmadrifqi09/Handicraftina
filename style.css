@@ -26,12 +26,11 @@ body {
     font-weight: 600;
 }
 
-.navbar .navbar-brand::after {
-    content: '';
-    display: block;
-    border-bottom: 1px solid var(--bg-color);
-    margin-top: -5px;
+.navbar .navbar-brand img {
+    width: 22px;
 }
+
+
 
 .navbar .navbar-brand:hover {
     color: var(--second-color);
@@ -441,9 +440,6 @@ i {
     margin-right: 4px;
 }
 
-.span-title {
-    color: var(--primry-color);
-}
 
 footer a {
     text-decoration: none;
