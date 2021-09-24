@@ -125,7 +125,7 @@ body .navbar {
     background-color: var(--primry-color);
 }
 
-.short-description h3 {
+.short-description h4 {
     color: white;
     text-align: center;
 }
