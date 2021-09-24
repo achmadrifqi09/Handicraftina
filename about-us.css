@@ -130,6 +130,12 @@ body .navbar {
     text-align: center;
 }
 
+.team {
+    background-color: var(--primry-color);
+    color: white;
+    padding: 54px 0px;
+}
+
 
 .vision {
     padding: 24px 34px;
@@ -143,6 +149,21 @@ body .navbar {
     box-shadow: 1px 0px 8px -7px black;
     margin-top: 24px;
     border: 1px solid #e2dfdf;
+}
+
+.team h3 {
+    text-align: center;
+}
+
+.box-team {
+    max-width: 200px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.box-team img {
+    border-radius: 100%;
 }
 
 /* end about */
