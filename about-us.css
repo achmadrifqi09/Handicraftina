@@ -113,7 +113,7 @@ body .navbar {
 
 .wrap-content {
     padding-top: 200px;
-    padding-bottom: 100px;
+
 }
 
 .about-content {
@@ -315,11 +315,7 @@ footer a {
         margin-top: 14px;
     }
 
-    .wrap-content .container .row {
-        flex-direction: column-reverse;
-    }
-
-    .team .container .row {
+    .wrap-content .container #row {
         flex-direction: column-reverse;
     }
 
