@@ -319,6 +319,10 @@ footer a {
         flex-direction: column-reverse;
     }
 
+    .team .container .row {
+        flex-direction: column-reverse;
+    }
+
     .wrap-content img {
         margin-bottom: 24px;
     }
