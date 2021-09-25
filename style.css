@@ -403,6 +403,7 @@ form {
     padding: 56px 0px;
     text-align: center;
     color: var(--primry-color);
+    min-height: 500px;
 }
 
 .img-area {
