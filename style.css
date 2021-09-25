@@ -397,6 +397,50 @@ form {
     overflow: hidden;
 }
 
+
+.slider-area {
+    background-color: var(--bg-color);
+    padding: 56px 0px;
+    text-align: center;
+    color: var(--primry-color);
+}
+
+.img-area {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.img-area img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.testimonial-caption {
+    margin-top: 24px;
+    padding: 14px;
+}
+
+.testimonial h3::after {
+    content: '';
+    background-color: var(--primry-color);
+    width: 175px;
+    display: block;
+    height: 3px;
+    margin: 24px auto;
+    border-radius: 5px;
+}
+
+.testimonial .testimonial-desc {
+    margin-bottom: 54px;
+}
+
+.slider-area p {
+    color: #838383;
+    font-weight: 300;
+}
+
+
 footer {
     padding: 15px 0px;
     background-color: var(--bg-color);
