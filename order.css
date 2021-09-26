@@ -16,7 +16,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 /* navbar */
@@ -259,17 +258,13 @@ footer a {
         align-items: center;
     }
 
-    .team .box-team {
-        margin: 0px;
-    }
-
     form {
         margin-top: 54px;
     }
 
     .wrap-content {
-        padding-top: 54px;
-        margin-bottom: 54px;
+        padding-top: 15vh;
+        margin-bottom: 15vh;
     }
 
 
