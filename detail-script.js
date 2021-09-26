@@ -2,7 +2,9 @@ function getLink(btn) {
     let link = document.location.href;
     let facebookUrl = 'https://www.facebook.com/sharer/sharer.php?u=';
     let twitterUrl = 'https://twitter.com/share?url=';
-    let mailUrl = "mailto:?subject= I want to share this with you &amp;body=Hi there, Check out this site" + link
+    let mailUrl = "mailto:" +
+        "?subject=Hi I want to share the product link from Handicraftina" +
+        "&body=Here is the link" + link
 
 
     if (btn == 'facebook') {
