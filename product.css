@@ -116,6 +116,7 @@ body .navbar {
 
 }
 
+
 .title {
     background-color: var(--primry-color);
     color: var(--bg-color);
@@ -128,7 +129,8 @@ body .navbar {
     padding: 54px 0px;
 }
 
-.card .card-body{
+
+.card-area .card {
     background-color: var(--bg-color);
 }
 
