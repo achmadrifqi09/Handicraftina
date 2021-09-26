@@ -147,6 +147,8 @@ img {
     width: 50%;
 }
 
+
+
 .hero-social {
     margin-top: 30vh;
     width: 100%;
@@ -538,6 +540,8 @@ footer a {
     }
 
     .wrap-hero {
+        padding-top: 80px;
+        box-sizing: border-box;
         width: 100%;
     }
 
@@ -564,6 +568,11 @@ footer a {
 
     .wrap-contact {
         width: 100%;
+    }
+
+    .wrap-hero p {
+        font-weight: 200;
+        font-size: 14px;
     }
 
 }
@@ -640,6 +649,8 @@ footer a {
     .footer-contact {
         margin-top: 14px;
     }
+
+
 
     .social {
         width: 25%;

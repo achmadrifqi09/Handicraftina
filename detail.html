@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="detail.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Handicraftina</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/logo-social.png" alt=""> Handicraft<span
+                    class="span-title">ina</span></a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="toggler-icon top-bar"></span>
+                <span class="toggler-icon middle-bar"></span>
+                <span class="toggler-icon bottom-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#product">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrap-content">
+        <div class="title">
+            <h4>Detail Product</h4>
+        </div>
+        <div class="wrap-detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="img-area">
+                            <img src="assets/image 2.png" alt="product">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 d-flex flex-column justify-content-between">
+                        <div class="desc-area">
+                            <h3 class="title-product">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Adipisci, natus!
+                            </h3>
+                            <h4 class="mt-4 mb-4">$45/pcs</h4>
+                            <h6>Detail Product</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit temporibus doloremque
+                                consectetur
+                                quos, harum tempora eveniet minus voluptate, voluptas perspiciatis ipsum, illum
+                                similique et
+                                praesentium nemo fugit beatae. Earum, dolor ipsa? Dolore quis veritatis fugit officia
+                                architecto
+                                possimus quam maiores omnis laboriosam incidunt quod quibusdam, nulla facilis
+                                perspiciatis dicta at
+                                nostrum magnam cupiditate earum corporis repudiandae. Provident, ab temporibus
+                                voluptatum est
+                                delectus repudiandae similique, voluptatibus quis necessitatibus rem, consequuntur
+                                repellendus
+                                mollitia earum maiores iusto eos fugiat possimus unde dolorum veritatis molestiae porro
+                                qui
+                                voluptatem corrupti. Recusandae, obcaecati impedit. Quisquam, eos?</p>
+                        </div>
+                        <div class="wrap-share">
+                            <h6>Share</h6>
+                            <div class="wrap-ic">
+                                <button onclick="getLink('facebook')" class="btn-share"><a href="" id="facebook"
+                                        target="_blank"><i class="fab fa-facebook"></i></a></button>
+                                <button onclick="getLink('twitter')" class="btn-share"><a href="" id="twitter"
+                                        target="_blank"><i class="fab fa-twitter"></i></a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="https://api.whatsapp.com/send?phone=#" class="floating-btn"><i class="fab fa-whatsapp"></i></a>
+    <footer>
+        <div class="container pt-5">
+            <div class="footer-contact">
+                <h6>Contact</h6>
+                <div class="wrap-contact">
+                    <div class="contact-detail">
+                        <i class="fas fa-phone"></i>
+                        081231453807
+                    </div>
+                    <div class="contact-detail mt-2">
+                        <i class="fas fa-envelope-open-text"></i>
+                        handicraftina74@gmail.com
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-social-media">
+                <h6>Follow me!</h6>
+                <div class="social">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </div>
+                <div class="social mt-2">
+                    <i class="fab fa-facebook"></i>
+                    Facebook
+                </div>
+                <div class="social mt-2">
+                    <i class="fab fa-twitter"></i>
+                    Twitter
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="" class="copy-rigth">Copyright © 2021 Handicraftina,<br> All Rights Reserved</a>
+        </div>
+    </footer>
+    <script src="detail-script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+    </script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+
+    <script src="https://kit.fontawesome.com/34b32761e5.js" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+</body>
+
+</html>
