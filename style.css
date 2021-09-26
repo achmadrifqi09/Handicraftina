@@ -419,6 +419,10 @@ form {
     width: 100%;
 }
 
+.testimonial {
+    display: none;
+}
+
 .testimonial-caption {
     margin-top: 24px;
     padding: 14px;
@@ -475,7 +479,7 @@ i {
     color: var(--bg-color);
 }
 
-.footer-contact i{
+.footer-contact i {
     color: var(--bg-color);
 }
 
@@ -487,7 +491,7 @@ i {
     color: var(--bg-color);
 }
 
-.wrap-social-media i{
+.wrap-social-media i {
     color: var(--bg-color);
 }
 
