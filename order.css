@@ -154,6 +154,10 @@ body .alert.active {
     left: 1vw;
 }
 
+#loading-text {
+    margin-left: 5px;
+}
+
 /* end order */
 
 .btn-prim {
