@@ -142,7 +142,19 @@ p {
     justify-content: center;
 }
 
-/* end detail */
+body .alert {
+    position: fixed;
+    width: 50%;
+    top: 10vh;
+    left: -100vw;
+    transition: 900ms;
+}
+
+body .alert.active {
+    left: 1vw;
+}
+
+/* end order */
 
 .btn-prim {
     border: 0px;
@@ -267,6 +279,9 @@ footer a {
         margin-bottom: 15vh;
     }
 
+    body .alert {
+        width: 80%;
+    }
 
 }
 
