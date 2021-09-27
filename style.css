@@ -223,6 +223,10 @@ img {
     border-radius: 4px;
 }
 
+.excellence-item:hover {
+    box-shadow: 1px 0px 10 0 black;
+}
+
 .excellence h3 {
     color: var(--bg-color);
 }
@@ -303,6 +307,7 @@ img {
 .product img {
     transition: 500ms;
     overflow: hidden;
+    border-radius: 50px 0px 50px 0px;
 }
 
 .product img:hover {
@@ -633,8 +638,7 @@ footer a {
         gap: 24px;
         align-items: center;
         margin-top: 44px;
-        border: 4pxs;
-        box-shadow: 1px 0px 10 0 black;
+        border-radius: 0px 50px 0px 50px;
         box-shadow: 1px 0px 10px -6px #888888;
     }
 
@@ -644,7 +648,7 @@ footer a {
         gap: 24px;
         align-items: center;
         margin-top: 44px;
-        border: 4pxs;
+        border-radius: 50px 0px 50px 0px;
         box-shadow: 1px 0px 10px -6px #888888;
     }
 
